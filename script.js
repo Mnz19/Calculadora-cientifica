@@ -19,7 +19,7 @@ function calcularResultado() {
     }
 }
 
-function squareRoot() {
+function raizQuadrada() {
     try {
         displayValue = Math.sqrt(eval(displayValue));
         document.getElementById('display').value = displayValue;
@@ -28,7 +28,7 @@ function squareRoot() {
     }
 }
 
-function square() {
+function potencia() {
     try {
         displayValue = Math.pow(eval(displayValue), 2);
         document.getElementById('display').value = displayValue;
@@ -37,7 +37,7 @@ function square() {
     }
 }
 
-function factorial() {z
+function fatorial() {
     try {
         const num = parseInt(eval(displayValue));
         let result = 1;
