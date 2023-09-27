@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" class="display" id="display" readonly>
+        <div class="buttons">
+            <button class="btn" onclick="adicionarDisplay('7')">7</button>
+            <button class="btn" onclick="adicionarDisplay('8')">8</button>
+            <button class="btn" onclick="adicionarDisplay('9')">9</button>
+            <button class="btn" onclick="adicionarDisplay('+')">+</button>
+            <button class="btn" onclick="adicionarDisplay('4')">4</button>
+            <button class="btn" onclick="adicionarDisplay('5')">5</button>
+            <button class="btn" onclick="adicionarDisplay('6')">6</button>
+            <button class="btn" onclick="adicionarDisplay('-')">-</button>
+            <button class="btn" onclick="adicionarDisplay('1')">1</button>
+            <button class="btn" onclick="adicionarDisplay('2')">2</button>
+            <button class="btn" onclick="adicionarDisplay('3')">3</button>
+            <button class="btn" onclick="adicionarDisplay('*')">*</button>
+            <button class="btn" onclick="adicionarDisplay('0')">0</button>
+            <button class="btn" onclick="limparDisplay()">C</button>
+            <button class="btn" onclick="calcularResultado()">=</button>
+            <button class="btn" onclick="adicionarDisplay('/')">/</button>
+            <button class="btn" onclick="squareRoot()">√</button>
+            <button class="btn" onclick="square()">x²</button>
+            <button class="btn" onclick="adicionarDisplay('**')" >x^n</button>
+            <button class="btn" onclick="factorial()">!</button>
+            <button class="btn" onclick="logBase2()">log₂</button>
+            <button class="btn" onclick="logBase10()">log₁₀</button>
+            <button class="btn" onclick="naturalLog()">ln</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
